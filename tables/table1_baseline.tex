@@ -1,0 +1,39 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{3}{c}{n\_crimes}\\
+                                                                     & Baseline      & Controls      & Poverty \\   
+   Model:                                                            & (1)           & (2)           & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   is\_school\_time                                                  & -1.74$^{***}$ & -1.75$^{***}$ & -1.73$^{***}$\\   
+                                                                     & (0.017)       & (0.020)       & (0.019)\\   
+   is\_school\_time $\times$ n\_schools                              & 0.004         & 0.006         &   \\   
+                                                                     & (0.004)       & (0.004)       &   \\   
+   is\_school\_time $\times$ n\_bus\_stops                           &               & 0.0006        & 0.0005\\   
+                                                                     &               & (0.001)       & (0.001)\\   
+   is\_school\_time $\times$ n\_police                               &               & 0.012         & 0.015\\   
+                                                                     &               & (0.019)       & (0.019)\\   
+   is\_school\_time $\times$ n\_commercial                           &               & -0.005        & -0.002\\   
+                                                                     &               & (0.003)       & (0.003)\\   
+   is\_school\_time $\times$ n\_schools $\times$ poverty\_rate       &               &               & -0.034\\   
+                                                                     &               &               & (0.044)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   grid\_id                                                          & Yes           & Yes           & Yes\\  
+   date                                                              & Yes           & Yes           & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                                                      & 665,916       & 665,916       & 662,540\\  
+   Squared Correlation                                               & 0.15713       & 0.15716       & 0.15696\\  
+   Pseudo R$^2$                                                      & 0.20261       & 0.20262       & 0.20178\\  
+   BIC                                                               & 283,153.4     & 283,191.0     & 283,015.4\\  
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Clustered (grid\_id) standard-errors in parentheses}}\\
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

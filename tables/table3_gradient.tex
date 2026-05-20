@@ -1,0 +1,54 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{2}{c}{n\_crimes}\\
+                                                                          & Baseline       & Controls \\   
+   Model:                                                                 & (1)            & (2)\\  
+   \midrule
+   \emph{Variables}\\
+   franja\_4cat $=$ exit\_primaria                                        & -1.32$^{***}$  & -1.29$^{***}$\\   
+                                                                          & (0.039)        & (0.119)\\   
+   franja\_4cat $=$ exit\_secundaria                                      & -1.98$^{***}$  & -2.03$^{***}$\\   
+                                                                          & (0.049)        & (0.129)\\   
+   franja\_4cat $=$ start                                                 & -2.22$^{***}$  & -2.30$^{***}$\\   
+                                                                          & (0.065)        & (0.219)\\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 0\_100          & 0.106$^{**}$   & 0.110$^{**}$\\   
+                                                                          & (0.047)        & (0.048)\\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 100\_200        & 0.127$^{***}$  & 0.131$^{***}$\\   
+                                                                          & (0.044)        & (0.044)\\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 200\_300        & 0.111$^{**}$   & 0.119$^{**}$\\   
+                                                                          & (0.050)        & (0.050)\\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 0\_100        & 0.031          & 0.046\\   
+                                                                          & (0.062)        & (0.064)\\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 100\_200      & 0.066          & 0.076\\   
+                                                                          & (0.059)        & (0.059)\\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 200\_300      & 0.121$^{**}$   & 0.136$^{**}$\\   
+                                                                          & (0.061)        & (0.062)\\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 0\_100                   & -0.248$^{***}$ & -0.221$^{***}$\\   
+                                                                          & (0.086)        & (0.084)\\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 100\_200                 & -0.246$^{***}$ & -0.215$^{***}$\\   
+                                                                          & (0.081)        & (0.080)\\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 200\_300                 & -0.194$^{**}$  & -0.193$^{**}$\\   
+                                                                          & (0.091)        & (0.089)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   grid\_id                                                               & Yes            & Yes\\  
+   date                                                                   & Yes            & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                                                           & 665,916        & 665,916\\  
+   Squared Correlation                                                    & 0.16297        & 0.16311\\  
+   Pseudo R$^2$                                                           & 0.21353        & 0.21364\\  
+   BIC                                                                    & 279,593.7      & 279,798.0\\  
+   \midrule \midrule
+   \multicolumn{3}{l}{\emph{Clustered (grid\_id) standard-errors in parentheses}}\\
+   \multicolumn{3}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+ 
+\par \raggedright 
+Col.~(2) includes distance-bin interactions for nearest bus stop and police station (coefficients omitted). Poisson QMLE, grid and date FE. Cluster SE by grid. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\par\endgroup
+
+

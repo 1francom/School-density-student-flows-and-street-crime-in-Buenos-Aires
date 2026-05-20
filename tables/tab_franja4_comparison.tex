@@ -1,0 +1,81 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{3}{c}{n\_crimes}\\
+                                                                                               & Franjas        & Franjas + Sector      & Franjas + Sector + Poverty \\   
+   Model:                                                                                      & (1)            & (2)                   & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   franja\_4catexit\_primaria                                                                  & -1.27$^{***}$  & -1.26$^{***}$         & -1.24$^{***}$\\   
+                                                                                               & (0.027)        & (0.028)               & (0.028)\\   
+   franja\_4catexit\_secundaria                                                                & -1.92$^{***}$  & -1.93$^{***}$         & -1.89$^{***}$\\   
+                                                                                               & (0.033)        & (0.034)               & (0.032)\\   
+   franja\_4catstart                                                                           & -2.32$^{***}$  & -2.34$^{***}$         & -2.37$^{***}$\\   
+                                                                                               & (0.049)        & (0.051)               & (0.048)\\   
+   n\_schools $\times$ franja\_4cat $=$ exit\_primaria                                         & 0.008          &                       &   \\   
+                                                                                               & (0.006)        &                       &   \\   
+   n\_schools $\times$ franja\_4cat $=$ exit\_secundaria                                       & 0.013$^{*}$    &                       &   \\   
+                                                                                               & (0.007)        &                       &   \\   
+   n\_schools $\times$ franja\_4cat $=$ start                                                  & -0.011         &                       &   \\   
+                                                                                               & (0.011)        &                       &   \\   
+   n\_bus\_stops $\times$ franja\_4cat $=$ exit\_primaria                                      & -0.0001        & $6.22\times 10^{-6}$  & -0.0002\\   
+                                                                                               & (0.002)        & (0.002)               & (0.002)\\   
+   n\_bus\_stops $\times$ franja\_4cat $=$ exit\_secundaria                                    & 0.0001         & 0.0002                & $-6.17\times 10^{-5}$\\    
+                                                                                               & (0.002)        & (0.002)               & (0.002)\\   
+   n\_bus\_stops $\times$ franja\_4cat $=$ start                                               & 0.004          & 0.004                 & 0.004\\   
+                                                                                               & (0.004)        & (0.004)               & (0.004)\\   
+   n\_police $\times$ franja\_4cat $=$ exit\_primaria                                          & 0.030          &                       &   \\   
+                                                                                               & (0.026)        &                       &   \\   
+   n\_police $\times$ franja\_4cat $=$ exit\_secundaria                                        & 0.016          &                       &   \\   
+                                                                                               & (0.038)        &                       &   \\   
+   n\_police $\times$ franja\_4cat $=$ start                                                   & -0.062         &                       &   \\   
+                                                                                               & (0.066)        &                       &   \\   
+   n\_commercial $\times$ franja\_4cat $=$ exit\_primaria                                      & 0.008$^{**}$   & 0.007$^{*}$           & 0.015$^{***}$\\   
+                                                                                               & (0.004)        & (0.004)               & (0.004)\\   
+   n\_commercial $\times$ franja\_4cat $=$ exit\_secundaria                                    & -0.014$^{**}$  & -0.013$^{*}$          & -0.003\\   
+                                                                                               & (0.007)        & (0.007)               & (0.008)\\   
+   n\_commercial $\times$ franja\_4cat $=$ start                                               & -0.044$^{***}$ & -0.041$^{***}$        & -0.048$^{***}$\\   
+                                                                                               & (0.012)        & (0.013)               & (0.013)\\   
+   n\_pub\_schools $\times$ franja\_4cat $=$ exit\_primaria                                    &                & -0.0004               &   \\   
+                                                                                               &                & (0.008)               &   \\   
+   n\_pub\_schools $\times$ franja\_4cat $=$ exit\_secundaria                                  &                & 0.018$^{*}$           &   \\   
+                                                                                               &                & (0.010)               &   \\   
+   n\_pub\_schools $\times$ franja\_4cat $=$ start                                             &                & 0.010                 &   \\   
+                                                                                               &                & (0.017)               &   \\   
+   n\_priv\_schools $\times$ franja\_4cat $=$ exit\_primaria                                   &                & 0.015$^{**}$          &   \\   
+                                                                                               &                & (0.007)               &   \\   
+   n\_priv\_schools $\times$ franja\_4cat $=$ exit\_secundaria                                 &                & 0.009                 &   \\   
+                                                                                               &                & (0.011)               &   \\   
+   n\_priv\_schools $\times$ franja\_4cat $=$ start                                            &                & -0.033$^{**}$         &   \\   
+                                                                                               &                & (0.015)               &   \\   
+   n\_pub\_schools  $\times$  poverty\_rate $\times$ franja\_4cat $=$ exit\_primaria           &                &                       & -0.004\\   
+                                                                                               &                &                       & (0.076)\\   
+   n\_pub\_schools  $\times$  poverty\_rate $\times$ franja\_4cat $=$ exit\_secundaria         &                &                       & 0.028\\   
+                                                                                               &                &                       & (0.082)\\   
+   n\_pub\_schools  $\times$  poverty\_rate $\times$ franja\_4cat $=$ start                    &                &                       & 0.275$^{**}$\\   
+                                                                                               &                &                       & (0.134)\\   
+   n\_priv\_schools  $\times$  poverty\_rate $\times$ franja\_4cat $=$ exit\_primaria          &                &                       & -0.135\\   
+                                                                                               &                &                       & (0.125)\\   
+   n\_priv\_schools  $\times$  poverty\_rate $\times$ franja\_4cat $=$ exit\_secundaria        &                &                       & -0.246\\   
+                                                                                               &                &                       & (0.188)\\   
+   n\_priv\_schools  $\times$  poverty\_rate $\times$ franja\_4cat $=$ start                   &                &                       & -0.168\\   
+                                                                                               &                &                       & (0.181)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   grid\_id                                                                                    & Yes            & Yes                   & Yes\\  
+   date                                                                                        & Yes            & Yes                   & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                                                                                & 665,916        & 665,916               & 662,540\\  
+   Squared Correlation                                                                         & 0.16312        & 0.16309               & 0.16289\\  
+   Pseudo R$^2$                                                                                & 0.21370        & 0.21371               & 0.21288\\  
+   BIC                                                                                         & 279,576.1      & 279,572.2             & 279,399.8\\  
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Clustered (grid\_id) standard-errors in parentheses}}\\
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

@@ -1,0 +1,52 @@
+
+\begingroup
+\centering
+\tiny
+\begin{tabular}{lcc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{2}{c}{n\_crimes}\\
+                                                                          & Baseline bins   & Control bins \\   
+   Model:                                                                 & (1)             & (2)\\  
+   \midrule
+   \emph{Variables}\\
+   franja\_4cat $=$ exit\_primaria                                        & -1.329$^{***}$  & -1.342$^{***}$\\   
+                                                                          & (0.0401)        & (0.1272)\\   
+   franja\_4cat $=$ exit\_secundaria                                      & -1.979$^{***}$  & -2.076$^{***}$\\   
+                                                                          & (0.0520)        & (0.1319)\\   
+   franja\_4cat $=$ start                                                 & -2.215$^{***}$  & -2.291$^{***}$\\   
+                                                                          & (0.0681)        & (0.2232)\\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 0\_100          & 0.1209$^{**}$   & 0.1217$^{**}$\\   
+                                                                          & (0.0484)        & (0.0487)\\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 100\_200        & 0.1404$^{***}$  & 0.1422$^{***}$\\   
+                                                                          & (0.0455)        & (0.0454)\\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 200\_300        & 0.1307$^{***}$  & 0.1392$^{***}$\\   
+                                                                          & (0.0506)        & (0.0505)\\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 0\_100        & 0.0331          & 0.0466\\   
+                                                                          & (0.0651)        & (0.0660)\\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 100\_200      & 0.0673          & 0.0773\\   
+                                                                          & (0.0621)        & (0.0617)\\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 200\_300      & 0.1388$^{**}$   & 0.1548$^{**}$\\   
+                                                                          & (0.0641)        & (0.0647)\\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 0\_100                   & -0.2659$^{***}$ & -0.2407$^{***}$\\   
+                                                                          & (0.0883)        & (0.0865)\\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 100\_200                 & -0.2568$^{***}$ & -0.2302$^{***}$\\   
+                                                                          & (0.0842)        & (0.0829)\\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 200\_300                 & -0.2173$^{**}$  & -0.2220$^{**}$\\   
+                                                                          & (0.0945)        & (0.0925)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   grid\_id                                                               & Yes             & Yes\\  
+   date                                                                   & Yes             & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                                                           & 608,524         & 608,524\\  
+   Squared Correlation                                                    & 0.16388         & 0.16401\\  
+   Pseudo R$^2$                                                           & 0.20859         & 0.20869\\  
+   BIC                                                                    & 268,427.9       & 268,632.9\\  
+   \midrule \midrule
+   \multicolumn{3}{l}{\emph{Clustered (grid\_id) standard-errors in parentheses}}\\
+   \multicolumn{3}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

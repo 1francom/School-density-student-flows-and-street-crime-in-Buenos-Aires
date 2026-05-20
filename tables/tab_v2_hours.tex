@@ -1,0 +1,97 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & \multicolumn{2}{c}{n\_robos} & n\_crimes\_v2\\
+                                                                                   & Main spec (v1)  & Main spec (v1) robos & wider windows (v2) \\   
+   Model:                                                                          & (1)             & (2)                  & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   franja\_4cat $=$ exit\_primaria                                                 & -1.356$^{***}$  & -1.495$^{***}$       &   \\   
+                                                                                   & (0.0476)        & (0.1547)             &   \\   
+   franja\_4cat $=$ exit\_secundaria                                               & -1.843$^{***}$  & -1.923$^{***}$       &   \\   
+                                                                                   & (0.0556)        & (0.2131)             &   \\   
+   franja\_4cat $=$ start                                                          & -2.040$^{***}$  & -2.189$^{***}$       &   \\   
+                                                                                   & (0.0762)        & (0.2453)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 0\_100                   & 0.1068$^{*}$    & 0.0956               &   \\   
+                                                                                   & (0.0568)        & (0.0583)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 100\_200                 & 0.0883          & 0.0828               &   \\   
+                                                                                   & (0.0547)        & (0.0555)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bin $=$ 200\_300                 & 0.0352          & 0.0280               &   \\   
+                                                                                   & (0.0592)        & (0.0596)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 0\_100                 & -0.0951         & -0.1089              &   \\   
+                                                                                   & (0.0699)        & (0.0700)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 100\_200               & -0.0229         & -0.0350              &   \\   
+                                                                                   & (0.0658)        & (0.0656)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bin $=$ 200\_300               & -0.0516         & -0.0640              &   \\   
+                                                                                   & (0.0712)        & (0.0715)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 0\_100                            & -0.1910$^{**}$  & -0.1887$^{**}$       &   \\   
+                                                                                   & (0.0935)        & (0.0945)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 100\_200                          & -0.2923$^{***}$ & -0.2988$^{***}$      &   \\   
+                                                                                   & (0.0895)        & (0.0888)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_bin $=$ 200\_300                          & -0.1314         & -0.1281              &   \\   
+                                                                                   & (0.0937)        & (0.0936)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bus\_bin $=$ 0\_100              &                 & 0.1588               &   \\   
+                                                                                   &                 & (0.1532)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bus\_bin $=$ 100\_200            &                 & 0.1375               &   \\   
+                                                                                   &                 & (0.1538)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_bus\_bin $=$ 200\_300            &                 & 0.1260               &   \\   
+                                                                                   &                 & (0.1715)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bus\_bin $=$ 0\_100            &                 & 0.1179               &   \\   
+                                                                                   &                 & (0.2144)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bus\_bin $=$ 100\_200          &                 & 0.0853               &   \\   
+                                                                                   &                 & (0.2155)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_bus\_bin $=$ 200\_300          &                 & -0.0617              &   \\   
+                                                                                   &                 & (0.2404)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_bus\_bin $=$ 0\_100                       &                 & 0.1656               &   \\   
+                                                                                   &                 & (0.2482)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_bus\_bin $=$ 100\_200                     &                 & 0.1461               &   \\   
+                                                                                   &                 & (0.2495)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_bus\_bin $=$ 200\_300                     &                 & 0.1120               &   \\   
+                                                                                   &                 & (0.2666)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_police\_bin $=$ 0\_100           &                 & 0.0542               &   \\   
+                                                                                   &                 & (0.1070)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_police\_bin $=$ 100\_200         &                 & -0.0380              &   \\   
+                                                                                   &                 & (0.0675)             &   \\   
+   franja\_4cat $=$ exit\_primaria $\times$ dist\_police\_bin $=$ 200\_300         &                 & -0.0113              &   \\   
+                                                                                   &                 & (0.0503)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_police\_bin $=$ 0\_100         &                 & 0.0607               &   \\   
+                                                                                   &                 & (0.1082)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_police\_bin $=$ 100\_200       &                 & 0.0236               &   \\   
+                                                                                   &                 & (0.0938)             &   \\   
+   franja\_4cat $=$ exit\_secundaria $\times$ dist\_police\_bin $=$ 200\_300       &                 & -0.0936              &   \\   
+                                                                                   &                 & (0.0648)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_police\_bin $=$ 0\_100                    &                 & -0.2804$^{*}$        &   \\   
+                                                                                   &                 & (0.1456)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_police\_bin $=$ 100\_200                  &                 & -0.0378              &   \\   
+                                                                                   &                 & (0.1346)             &   \\   
+   franja\_4cat $=$ start $\times$ dist\_police\_bin $=$ 200\_300                  &                 & 0.0381               &   \\   
+                                                                                   &                 & (0.0935)             &   \\   
+   is\_school\_time\_v2                                                            &                 &                      & -0.9870$^{***}$\\   
+                                                                                   &                 &                      & (0.0175)\\   
+   is\_school\_time\_v2 $\times$ n\_schools                                        &                 &                      & 0.0024\\   
+                                                                                   &                 &                      & (0.0067)\\   
+   is\_school\_time\_v2 $\times$ n\_bus\_stops                                     &                 &                      & -0.0005\\   
+                                                                                   &                 &                      & (0.0028)\\   
+   is\_school\_time\_v2 $\times$ n\_police                                         &                 &                      & 0.0019\\   
+                                                                                   &                 &                      & (0.0263)\\   
+   is\_school\_time\_v2 $\times$ n\_commercial                                     &                 &                      & 0.0063\\   
+                                                                                   &                 &                      & (0.0072)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   grid\_id                                                                        & Yes             & Yes                  & Yes\\  
+   date                                                                            & Yes             & Yes                  & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                                                                    & 2,351,740       & 2,351,740            & 2,330,500\\  
+   Squared Correlation                                                             & 0.03594         & 0.03595              & 0.03744\\  
+   Pseudo R$^2$                                                                    & 0.14428         & 0.14432              & 0.10926\\  
+   BIC                                                                             & 286,017.7       & 286,269.5            & 440,239.4\\  
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Clustered (grid\_id) standard-errors in parentheses}}\\
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

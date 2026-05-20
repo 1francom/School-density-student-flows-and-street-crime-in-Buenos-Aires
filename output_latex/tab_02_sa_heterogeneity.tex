@@ -1,0 +1,35 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+                       & Baseline & Sector   & Poverty     & Full \\   
+   Model:              & (1)      & (2)      & (3)         & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   pub\_x\_post        &          & -0.008   &             & -0.009\\   
+                       &          & (0.011)  &             & (0.011)\\   
+   priv\_x\_post       &          & 0.005    &             & 0.008\\   
+                       &          & (0.010)  &             & (0.010)\\   
+   pov\_x\_post        &          &          & 0.541$^{*}$ & 0.574$^{*}$\\   
+                       &          &          & (0.303)     & (0.299)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   grid\_id            &          & Yes      & Yes         & Yes\\  
+   bim\_idx            &          & Yes      & Yes         & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations        & 20,520   & 20,520   & 20,520      & 20,520\\  
+   Squared Correlation & 0.15760  & 0.46802  & 0.46808     & 0.46817\\  
+   Pseudo R$^2$        & 0.08849  & 0.23416  & 0.23427     & 0.23431\\  
+   BIC                 & 77,523.1 & 70,441.9 & 70,421.8    & 70,438.5\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Clustered (grid\_id) standard-errors in parentheses}}\\
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+ 
+\par \raggedright 
+All models include grid\_id and bim\_idx fixed effects. pub\_x\_post = n\_pub\_schools $\times$ post; priv\_x\_post = n\_priv\_schools $\times$ post; pov\_x\_post = poverty\_rate $\times$ post.
+\par\endgroup
+
+
