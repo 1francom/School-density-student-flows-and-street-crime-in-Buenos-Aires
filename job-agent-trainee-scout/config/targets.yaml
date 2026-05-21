@@ -1,0 +1,122 @@
+candidate:
+  name: Franco Medero
+  university: LMU Munich
+  degree: Bachelor Volkswirtschaftslehre / Economics
+  expected_status: Final-year Bachelor student, likely starting a Master next year
+  countries:
+    - Germany
+    - Switzerland
+    - Spain
+    - Argentina
+    - Sweden
+
+countries:
+  Germany:
+    search_terms:
+      - Germany
+      - Deutschland
+      - Munich
+      - München
+      - Frankfurt
+      - Berlin
+  Switzerland:
+    search_terms:
+      - Switzerland
+      - Schweiz
+      - Suisse
+      - Zurich
+      - Zürich
+      - Geneva
+      - Genève
+  Spain:
+    search_terms:
+      - Spain
+      - España
+      - Madrid
+      - Barcelona
+  Argentina:
+    search_terms:
+      - Argentina
+      - Buenos Aires
+  Sweden:
+    search_terms:
+      - Sweden
+      - Sverige
+      - Stockholm
+
+target_organizations:
+  research_institutes_think_tanks:
+    - ifo Institute
+    - DIW Berlin
+    - ZEW Mannheim
+    - IAB
+    - RWI Essen
+    - Kiel Institute for the World Economy
+    - Max Planck Institute
+    - OECD Berlin Centre
+    - Bruegel
+    - CEPR
+    - Barcelona School of Economics
+    - IVIE
+    - Fedea
+    - IERAL
+    - CIPPEC
+    - Stockholm Institute of Transition Economics
+  banks_finance_insurance:
+    - Deutsche Bank
+    - Commerzbank
+    - Allianz
+    - Munich Re
+    - Generali
+    - UBS
+    - Swiss Re
+    - Zurich Insurance
+    - BBVA
+    - Santander
+    - CaixaBank
+    - SEB
+    - Swedbank
+  fintech_insurtech:
+    - N26
+    - Trade Republic
+    - Scalable Capital
+    - Raisin
+    - wefox
+    - Klarna
+    - Qonto
+    - Bitpanda
+  analytics_bi_consulting:
+    - Accenture
+    - Capgemini
+    - Deloitte
+    - PwC
+    - KPMG
+    - EY
+    - BearingPoint
+    - Simon-Kucher
+    - d-fine
+    - QuantCo
+  economic_consulting_policy:
+    - Copenhagen Economics
+    - Oxford Economics
+    - Frontier Economics
+    - NERA Economic Consulting
+    - Compass Lexecon
+    - Prognos
+    - Ecorys
+  climate_esg_geospatial:
+    - ClimatePartner
+    - South Pole
+    - Plan A
+    - Clarity AI
+    - Kayrros
+    - OroraTech
+    - Planet Labs
+  university_research_centers:
+    - LMU Munich
+    - University of Zurich
+    - ETH Zurich
+    - University of St. Gallen
+    - Pompeu Fabra University
+    - Stockholm University
+    - Stockholm School of Economics
